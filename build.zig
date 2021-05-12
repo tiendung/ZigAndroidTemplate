@@ -13,8 +13,8 @@ const permissions = [_][]const u8{
 };
 
 // Adjust these to your system:
-const android_sdk_root = "/Users/a1/Library/Android/sdk/";
-const android_ndk_root = android_sdk_root ++ "/android-ndk-r21e";
+const android_sdk_root = "/usr/local/share/android-sdk";
+const android_ndk_root = "/usr/local/share/android-ndk";
 const android_build_tools = android_sdk_root ++ "/build-tools/28.0.3";
 
 const keytool = "keytool";
